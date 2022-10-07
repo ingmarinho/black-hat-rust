@@ -29,7 +29,7 @@ fn scan_port(mut socket_address: SocketAddr, port: u16) -> Port {
         false
     };
     Port {
-        port: port,
+        port,
         is_open,
     }
 }
